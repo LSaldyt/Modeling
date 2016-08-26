@@ -13,7 +13,6 @@ if __name__ == '__main__':
     values  = [l[1:] for l in values]
     convert = lambda item : float(item.replace('%', ''))
     values  = [[convert(item) for item in l] for l in values]
-    print(values)
-    graph(values[0], values[1], values[2:])
+    graph(values, colors = [None, '#ffcc66', '#cc0000', '#9999ff'])
 
 
