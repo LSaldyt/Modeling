@@ -12,7 +12,7 @@
  - _Sample Average_  
    Arithmetic mean of sample values `m=1n∑(i=1,n,xi)` (` ̄̄y`)
  - _Explained variation_  
-   Proportion to which a mathematical model accounts for the variation of a given data set.
+   Proportion to which a mathematical model accounts for the variation of a given data set. (`∑(i=1,n,ŷi - ̄yi )`)
  - _Unexplained variation_  
    Part of a model that allows for variation within a dataset AKA sum of squares error
  - _Total variation_  
