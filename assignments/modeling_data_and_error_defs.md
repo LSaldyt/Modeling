@@ -12,17 +12,17 @@
  - _Sample Average_  
    Arithmetic mean of sample values `m=1n∑(i=1,n,xi)` (` ̄̄y`)
  - _Explained variation_  
-   Proportion to which a mathematical model accounts for the variation of a given data set.
+   Proportion to which a mathematical model accounts for the variation of a given data set. `(∑(i=1,n,ŷi - ̄y) ^2`(Signal)  
  - _Unexplained variation_  
-   Part of a model that allows for variation within a dataset AKA sum of squares error
+   Part of a model that allows for variation within a dataset AKA sum of squares error `(∑(i=1,n,ŷi - yi) ^2` (Noise)  
  - _Total variation_  
-   Largest sum of variations
+   Sum of explained and unexplained variances
  - _Correlation coefficient_  
-   Number that quantifies statistical relationships between two or more random variables or observed data values (`r`)
+   Number that quantifies statistical relationships between two or more random variables or observed data values (`r = +/- sqrt(explained/total)`)
  - _Coeffificient of determination_  
-   Number that indicates the proportion of the variance in the dependent variable that is predictable from the independent variable (`r^2`)
+   Number that indicates the proportion of the variance in the dependent variable that is predictable from the independent variable (`r^2 = explained/total`)
  - _Standard error of estimate_  
-   Estimate of standard deviation of sampling distribution for a statistic 
+   Estimate of standard deviation of sampling distribution for a statistic
  - _Prediction interval_  
    Estimate of an interval where future observations will fall with a certain probability, given what has already been observed.
  - _Bivariate normal distribution_  
