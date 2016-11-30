@@ -1,16 +1,17 @@
 #!/usr/bin/env python3
 from math import sqrt 
+from generate import read_csv
+from statistics import mean
 
 def transpose(data):
     return list(map(list, zip(*data)))
 
-def mean(numbers):
-    return float(sum(numbers)) / max(len(numbers), 1)
+def rss(data):
+    resid = lambda x : x - mean(data) 
+    return sum([resid(x) ** 2 for x in data])
 
 def standard_dev(data):
-    resid = lambda x : x - 100
-    summed_resids_squared = sum([resid(x) ** 2 for x in data])
-    return sqrt(summed_resids_squared / len(data))
+    return sqrt(rss(data) / len(data))
 
 def confidence(data):
     zcrit = 1.645
@@ -18,39 +19,54 @@ def confidence(data):
     dx    = zcrit * (sd / sqrt(len(data)))
     return mean(data), dx
 
-def pretty_confidence_stats(data, labels, filename=None):
+def pretty_stats(data, labels, filename=None):
     csv_table = []
     for statset, label in zip(data, labels):
-        print(label)
+        print('\t%s' % label)
         average, dx = confidence(statset)
-        print('Confidence of %s +/- %s' % (average, dx))
+        print('\t\tConfidence   | %s +/- %s' % (round(average, 3), round(dx, 3)))
+        print('\t\tStandard Dev | %s' % str(standard_dev(statset)))
+        print('\t\tRSS          | %s' % str(rss(statset)))
+
         if filename is not None: # If we plan to write to a file
             csv_table.append([label, average, dx])
     if filename is not None:
         with open(filename, 'a') as csvfile:
             for row in csv_table:
-                csvfile.write(','.join(row) + '\n')
+                csvfile.write(','.join([str(item) for item in row]) + '\n')
 
 
+def find_confidence(inputfile, outputfile):
+    content = [[float(v) for v in row] for row in read_csv(inputfile)]
+    small   = transpose(content[:20])
+    medium  = transpose(content[20:40])
+    large   = transpose(content[40:])
+
+    labels  = ['Min + Max', 
+               '2 * Mean', 
+               '2 * Median', 
+               'First Quartile + Third Quartile - Min', 
+               'Max - Min', 
+               '(2 * Median) - Min',
+               'Max + (Standard Deviation / 2)']
+
+    print('Small')
+    pretty_stats(small, labels, outputfile)
+    print('Medium')
+    pretty_stats(medium, labels, outputfile)
+    print('Large')
+    pretty_stats(large, labels, outputfile)
 
 def main():
-    with open('estimates.csv', 'r') as estimates:
-        content = [[float(v) for v in line.replace('\n', '').split(',')] for line in estimates]
-
-    content = transpose(content)
-    small   = content[:3]
-    medium  = content[3:6]
-    large   = content[6:9]
-
-    labels  = ['Min + Max', '2 * Mean', '2 * Median']
-
-    filename = 'confidence.csv'
-    print('Small')
-    pretty_confidence_stats(small, labels, filename)
-    print('Medium')
-    pretty_confidence_stats(medium, labels, filename)
-    print('Large')
-    pretty_confidence_stats(large, labels, filename)
+    print('Normal')
+    find_confidence('estimates.csv', 'confidence.csv')
+    print('Shifted')
+    find_confidence('estimates_shifted.csv', 'confidence_shifted.csv')
+    print('Skewed')
+    find_confidence('estimates_skewed.csv', 'confidence_skewed.csv')
 
 if __name__ == '__main__':
     main()
+
+# Niel Stevenson
+# Cryptonomicon

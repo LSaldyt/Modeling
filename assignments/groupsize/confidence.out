@@ -1,0 +1,39 @@
+Small
+	Min + Max
+		Confidence   | 98.55 +/- 2.242
+		Standard Dev | 6.0950799830683104
+		RSS          | 743.0
+	2 * Mean
+		Confidence   | 102.925 +/- 4.421
+		Standard Dev | 12.01925538459018
+		RSS          | 2889.25
+	2 * Median
+		Confidence   | 106.9 +/- 7.391
+		Standard Dev | 20.0922870773837
+		RSS          | 8074.0
+Medium
+	Min + Max
+		Confidence   | 99.6 +/- 0.668
+		Standard Dev | 1.816590212458495
+		RSS          | 66.0
+	2 * Mean
+		Confidence   | 98.472 +/- 2.195
+		Standard Dev | 5.967605885110042
+		RSS          | 712.2464000000001
+	2 * Median
+		Confidence   | 97.8 +/- 3.449
+		Standard Dev | 9.375499986667378
+		RSS          | 1758.0
+Large
+	Min + Max
+		Confidence   | 99.95 +/- 0.247
+		Standard Dev | 0.6708203932499369
+		RSS          | 9.0
+	2 * Mean
+		Confidence   | 99.199 +/- 0.944
+		Standard Dev | 2.567044750291665
+		RSS          | 131.79437499999992
+	2 * Median
+		Confidence   | 99.199 +/- 0.944
+		Standard Dev | 2.567044750291665
+		RSS          | 131.79437499999992

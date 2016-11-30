@@ -1,12 +1,13 @@
 #!/usr/bin/env python3
-from random import randint
+from random import randint, random
 
-def gen_experiment(experiment_size=20):
+def gen_experiment(experiment_size=20, a=0, b=100, skew=False):
+    generator = lambda : randint(a, b) * (1 if not skew else random())
     measured = []
     for i in range(experiment_size):
-        generated = randint(0, 100)
+        generated = generator() 
         while generated in measured:
-            generated = randint(0, 100)
+            generated = generator() 
         measured.append(generated)
     return measured
 
@@ -19,19 +20,28 @@ def write_csv(filename, content):
                     csvfile.write(',')
             csvfile.write('\n')
 
-def main():
+def read_csv(filename):
+    with open(filename, 'r') as content:
+        return [[v for v in line.replace('\n', '').split(',')] for line in content]
+
+def generate(filename, a, b, skew=False):
     spacing = [' '] * 7
     content = []
     content.append(['Small:'])
     for i in range(20):
-        content.append(spacing + gen_experiment(20))
+        content.append(spacing + gen_experiment(20, a, b, skew))
     content.append(['Med:'])
     for i in range(20):
-        content.append(spacing + gen_experiment(50))
+        content.append(spacing + gen_experiment(50, a, b, skew))
     content.append(['Large:'])
     for i in range(20):
-        content.append(spacing + gen_experiment(80))
-    write_csv('measured.csv', content)
+        content.append(spacing + gen_experiment(80, a, b, skew))
+    write_csv(filename, content)
+
+def main():
+    generate('measured.csv', 0, 100)
+    generate('measured_shifted.csv', 100, 200)
+    generate('measured_skewed.csv', 0, 100, True)
 
 if __name__ == '__main__':
     main()

@@ -1,0 +1,264 @@
+Normal
+Small
+	Min + Max
+		Confidence   | 101.25 +/- 1.381
+		Standard Dev | 3.753331853167263
+		RSS          | 281.75
+	2 * Mean
+		Confidence   | 99.895 +/- 3.298
+		Standard Dev | 8.965181258624948
+		RSS          | 1607.4895000000004
+	2 * Median
+		Confidence   | 95.25 +/- 6.094
+		Standard Dev | 16.567664289211077
+		RSS          | 5489.75
+	First Quartile + Third Quartile - Min
+		Confidence   | 92.325 +/- 6.066
+		Standard Dev | 16.49111503204074
+		RSS          | 5439.137499999999
+	Max - Min
+		Confidence   | 94.85 +/- 1.302
+		Standard Dev | 3.5394208565809184
+		RSS          | 250.55000000000007
+	(2 * Median) - Min
+		Confidence   | 92.05 +/- 6.489
+		Standard Dev | 17.642207911709917
+		RSS          | 6224.950000000001
+	Max + (Standard Deviation / 2)
+		Confidence   | 112.933 +/- 0.935
+		Standard Dev | 2.5415612443911777
+		RSS          | 129.19067117982462
+Medium
+	Min + Max
+		Confidence   | 99.35 +/- 0.549
+		Standard Dev | 1.4924811556599298
+		RSS          | 44.54999999999999
+	2 * Mean
+		Confidence   | 98.404 +/- 1.945
+		Standard Dev | 5.288098334940454
+		RSS          | 559.2796800000001
+	2 * Median
+		Confidence   | 97.75 +/- 3.145
+		Standard Dev | 8.549122762014825
+		RSS          | 1461.75
+	First Quartile + Third Quartile - Min
+		Confidence   | 96.0 +/- 4.091
+		Standard Dev | 11.122050170719426
+		RSS          | 2474.0
+	Max - Min
+		Confidence   | 98.25 +/- 0.366
+		Standard Dev | 0.9937303457175896
+		RSS          | 19.75
+	(2 * Median) - Min
+		Confidence   | 97.2 +/- 3.122
+		Standard Dev | 8.488816171881684
+		RSS          | 1441.2000000000003
+	Max + (Standard Deviation / 2)
+		Confidence   | 113.393 +/- 0.455
+		Standard Dev | 1.2369946903626599
+		RSS          | 30.60311727970825
+Large
+	Min + Max
+		Confidence   | 99.65 +/- 0.267
+		Standard Dev | 0.7262919523166971
+		RSS          | 10.549999999999988
+	2 * Mean
+		Confidence   | 98.838 +/- 1.173
+		Standard Dev | 3.1879117381132116
+		RSS          | 203.25562499999995
+	2 * Median
+		Confidence   | 98.8 +/- 1.928
+		Standard Dev | 5.240229002629561
+		RSS          | 549.2
+	First Quartile + Third Quartile - Min
+		Confidence   | 98.15 +/- 1.833
+		Standard Dev | 4.98272014064607
+		RSS          | 496.54999999999995
+	Max - Min
+		Confidence   | 99.55 +/- 0.246
+		Standard Dev | 0.6689544080129824
+		RSS          | 8.949999999999996
+	(2 * Median) - Min
+		Confidence   | 98.75 +/- 1.886
+		Standard Dev | 5.127133702177075
+		RSS          | 525.75
+	Max + (Standard Deviation / 2)
+		Confidence   | 114.207 +/- 0.282
+		Standard Dev | 0.7661790682587842
+		RSS          | 11.740607292757977
+Shifted
+Small
+	Min + Max
+		Confidence   | 299.7 +/- 2.084
+		Standard Dev | 5.666568626602875
+		RSS          | 642.2
+	2 * Mean
+		Confidence   | 294.065 +/- 4.47
+		Standard Dev | 12.153282478408872
+		RSS          | 2954.045500000002
+	2 * Median
+		Confidence   | 290.65 +/- 7.091
+		Standard Dev | 19.277642490719657
+		RSS          | 7432.549999999998
+	First Quartile + Third Quartile - Min
+		Confidence   | 186.475 +/- 6.21
+		Standard Dev | 16.882294719616763
+		RSS          | 5700.237500000001
+	Max - Min
+		Confidence   | 91.8 +/- 1.867
+		Standard Dev | 5.075431016179809
+		RSS          | 515.2
+	(2 * Median) - Min
+		Confidence   | 186.7 +/- 6.462
+		Standard Dev | 17.56729916634882
+		RSS          | 6172.2
+	Max + (Standard Deviation / 2)
+		Confidence   | 209.995 +/- 1.827
+		Standard Dev | 4.968236513425705
+		RSS          | 493.6674810667281
+Medium
+	Min + Max
+		Confidence   | 299.95 +/- 0.513
+		Standard Dev | 1.395528573695286
+		RSS          | 38.94999999999999
+	2 * Mean
+		Confidence   | 300.558 +/- 1.607
+		Standard Dev | 4.369063515216963
+		RSS          | 381.7743200000001
+	2 * Median
+		Confidence   | 301.8 +/- 2.337
+		Standard Dev | 6.3529520697074355
+		RSS          | 807.1999999999998
+	First Quartile + Third Quartile - Min
+		Confidence   | 202.25 +/- 2.489
+		Standard Dev | 6.766646141183976
+		RSS          | 915.75
+	Max - Min
+		Confidence   | 98.75 +/- 0.433
+		Standard Dev | 1.1779218989389746
+		RSS          | 27.75
+	(2 * Median) - Min
+		Confidence   | 201.2 +/- 2.319
+		Standard Dev | 6.305553108173778
+		RSS          | 795.1999999999998
+	Max + (Standard Deviation / 2)
+		Confidence   | 214.012 +/- 0.436
+		Standard Dev | 1.1840381806616371
+		RSS          | 28.038928265290398
+Large
+	Min + Max
+		Confidence   | 299.85 +/- 0.291
+		Standard Dev | 0.792148975887743
+		RSS          | 12.55
+	2 * Mean
+		Confidence   | 300.985 +/- 1.151
+		Standard Dev | 3.1285519813485574
+		RSS          | 195.75674999999967
+	2 * Median
+		Confidence   | 301.55 +/- 2.134
+		Standard Dev | 5.8006465156911595
+		RSS          | 672.9499999999999
+	First Quartile + Third Quartile - Min
+		Confidence   | 201.725 +/- 2.519
+		Standard Dev | 6.849224408646573
+		RSS          | 938.2375000000001
+	Max - Min
+		Confidence   | 99.45 +/- 0.217
+		Standard Dev | 0.5894913061275797
+		RSS          | 6.9499999999999975
+	(2 * Median) - Min
+		Confidence   | 201.35 +/- 2.161
+		Standard Dev | 5.876010551386034
+		RSS          | 690.5500000000001
+	Max + (Standard Deviation / 2)
+		Confidence   | 214.244 +/- 0.296
+		Standard Dev | 0.8048321115437622
+		RSS          | 12.955094555439816
+Skewed
+Small
+	Min + Max
+		Confidence   | 73.399 +/- 4.689
+		Standard Dev | 12.748540352957281
+		RSS          | 3250.505622619603
+	2 * Mean
+		Confidence   | 50.236 +/- 3.671
+		Standard Dev | 9.979715385721423
+		RSS          | 1991.8943836000979
+	2 * Median
+		Confidence   | 38.355 +/- 5.612
+		Standard Dev | 15.25674370189154
+		RSS          | 4655.364567704144
+	First Quartile + Third Quartile - Min
+		Confidence   | 37.805 +/- 5.22
+		Standard Dev | 14.19003405856133
+		RSS          | 4027.1413316626117
+	Max - Min
+		Confidence   | 72.161 +/- 4.616
+		Standard Dev | 12.549133270949884
+		RSS          | 3149.6149170412264
+	(2 * Median) - Min
+		Confidence   | 37.736 +/- 5.554
+		Standard Dev | 15.099157102976399
+		RSS          | 4559.690904407253
+	Max + (Standard Deviation / 2)
+		Confidence   | 83.866 +/- 5.28
+		Standard Dev | 14.353369686009112
+		RSS          | 4120.384426864905
+Medium
+	Min + Max
+		Confidence   | 83.246 +/- 2.753
+		Standard Dev | 7.485146017918031
+		RSS          | 1120.548218191083
+	2 * Mean
+		Confidence   | 51.763 +/- 2.422
+		Standard Dev | 6.583827412044136
+		RSS          | 866.9356678316757
+	2 * Median
+		Confidence   | 40.6 +/- 3.444
+		Standard Dev | 9.36319697899875
+		RSS          | 1753.3891533506269
+	First Quartile + Third Quartile - Min
+		Confidence   | 39.56 +/- 3.328
+		Standard Dev | 9.046659207196184
+		RSS          | 1636.84085622295
+	Max - Min
+		Confidence   | 82.964 +/- 2.823
+		Standard Dev | 7.674830426671408
+		RSS          | 1178.0604415632242
+	(2 * Median) - Min
+		Confidence   | 40.458 +/- 3.39
+		Standard Dev | 9.215224591862954
+		RSS          | 1698.407285569515
+	Max + (Standard Deviation / 2)
+		Confidence   | 94.2 +/- 3.039
+		Standard Dev | 8.261102026062957
+		RSS          | 1364.91613370043
+Large
+	Min + Max
+		Confidence   | 88.086 +/- 1.864
+		Standard Dev | 5.066639454775647
+		RSS          | 513.4167072937853
+	2 * Mean
+		Confidence   | 49.624 +/- 1.991
+		Standard Dev | 5.411859478864592
+		RSS          | 585.7644603795306
+	2 * Median
+		Confidence   | 37.664 +/- 2.932
+		Standard Dev | 7.97002113715182
+		RSS          | 1270.4247385329356
+	First Quartile + Third Quartile - Min
+		Confidence   | 38.421 +/- 2.994
+		Standard Dev | 8.138546722538736
+		RSS          | 1324.7188550989201
+	Max - Min
+		Confidence   | 87.9 +/- 1.83
+		Standard Dev | 4.974803140760263
+		RSS          | 494.97332578636355
+	(2 * Median) - Min
+		Confidence   | 37.57 +/- 2.931
+		Standard Dev | 7.969034184589573
+		RSS          | 1270.1101167031438
+	Max + (Standard Deviation / 2)
+		Confidence   | 98.982 +/- 1.991
+		Standard Dev | 5.413391950006733
+		RSS          | 586.0962480879539
