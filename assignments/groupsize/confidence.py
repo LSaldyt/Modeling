@@ -48,7 +48,7 @@ def find_confidence(inputfile, outputfile):
                'First Quartile + Third Quartile - Min', 
                'Max - Min', 
                '(2 * Median) - Min',
-               'Max + (Standard Deviation / 2)']
+               'Max + (Standard Deviation / 2) - Min']
 
     print('Small')
     pretty_stats(small, labels, outputfile)

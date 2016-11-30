@@ -27,7 +27,7 @@ def estimate(inputfile, outputfile):
             stats.append(quartile_statistic(line))
             stats.append(max(line) - min(line))
             stats.append((2 * median(line)) - min(line))
-            stats.append(max(line) + (stdev(line) / 2))
+            stats.append(max(line) + (stdev(line) / 2) - min(line))
             estimates.append(stats)
     write_csv(outputfile, estimates)
 

@@ -24,10 +24,10 @@ Small
 		Confidence   | 92.05 +/- 6.489
 		Standard Dev | 17.642207911709917
 		RSS          | 6224.950000000001
-	Max + (Standard Deviation / 2)
-		Confidence   | 112.933 +/- 0.935
-		Standard Dev | 2.5415612443911777
-		RSS          | 129.19067117982462
+	Max + (Standard Deviation / 2) - Min
+		Confidence   | 109.733 +/- 1.392
+		Standard Dev | 3.78325187421926
+		RSS          | 286.25989487567085
 Medium
 	Min + Max
 		Confidence   | 99.35 +/- 0.549
@@ -53,10 +53,10 @@ Medium
 		Confidence   | 97.2 +/- 3.122
 		Standard Dev | 8.488816171881684
 		RSS          | 1441.2000000000003
-	Max + (Standard Deviation / 2)
-		Confidence   | 113.393 +/- 0.455
-		Standard Dev | 1.2369946903626599
-		RSS          | 30.60311727970825
+	Max + (Standard Deviation / 2) - Min
+		Confidence   | 112.843 +/- 0.481
+		Standard Dev | 1.3073990060446605
+		RSS          | 34.185843220131325
 Large
 	Min + Max
 		Confidence   | 99.65 +/- 0.267
@@ -82,10 +82,10 @@ Large
 		Confidence   | 98.75 +/- 1.886
 		Standard Dev | 5.127133702177075
 		RSS          | 525.75
-	Max + (Standard Deviation / 2)
-		Confidence   | 114.207 +/- 0.282
-		Standard Dev | 0.7661790682587842
-		RSS          | 11.740607292757977
+	Max + (Standard Deviation / 2) - Min
+		Confidence   | 114.157 +/- 0.287
+		Standard Dev | 0.780851653742495
+		RSS          | 12.194586103047786
 Shifted
 Small
 	Min + Max
@@ -112,10 +112,10 @@ Small
 		Confidence   | 186.7 +/- 6.462
 		Standard Dev | 17.56729916634882
 		RSS          | 6172.2
-	Max + (Standard Deviation / 2)
-		Confidence   | 209.995 +/- 1.827
-		Standard Dev | 4.968236513425705
-		RSS          | 493.6674810667281
+	Max + (Standard Deviation / 2) - Min
+		Confidence   | 106.045 +/- 2.187
+		Standard Dev | 5.946369586707546
+		RSS          | 707.1862252344094
 Medium
 	Min + Max
 		Confidence   | 299.95 +/- 0.513
@@ -141,10 +141,10 @@ Medium
 		Confidence   | 201.2 +/- 2.319
 		Standard Dev | 6.305553108173778
 		RSS          | 795.1999999999998
-	Max + (Standard Deviation / 2)
-		Confidence   | 214.012 +/- 0.436
-		Standard Dev | 1.1840381806616371
-		RSS          | 28.038928265290398
+	Max + (Standard Deviation / 2) - Min
+		Confidence   | 113.412 +/- 0.63
+		Standard Dev | 1.7114808795466907
+		RSS          | 58.583336021078274
 Large
 	Min + Max
 		Confidence   | 299.85 +/- 0.291
@@ -170,10 +170,10 @@ Large
 		Confidence   | 201.35 +/- 2.161
 		Standard Dev | 5.876010551386034
 		RSS          | 690.5500000000001
-	Max + (Standard Deviation / 2)
-		Confidence   | 214.244 +/- 0.296
-		Standard Dev | 0.8048321115437622
-		RSS          | 12.955094555439816
+	Max + (Standard Deviation / 2) - Min
+		Confidence   | 114.044 +/- 0.282
+		Standard Dev | 0.7657938692838573
+		RSS          | 11.72880500465483
 Skewed
 Small
 	Min + Max
@@ -200,10 +200,10 @@ Small
 		Confidence   | 37.736 +/- 5.554
 		Standard Dev | 15.099157102976399
 		RSS          | 4559.690904407253
-	Max + (Standard Deviation / 2)
-		Confidence   | 83.866 +/- 5.28
-		Standard Dev | 14.353369686009112
-		RSS          | 4120.384426864905
+	Max + (Standard Deviation / 2) - Min
+		Confidence   | 83.247 +/- 5.255
+		Standard Dev | 14.285515545689478
+		RSS          | 4081.5190881227145
 Medium
 	Min + Max
 		Confidence   | 83.246 +/- 2.753
@@ -229,10 +229,10 @@ Medium
 		Confidence   | 40.458 +/- 3.39
 		Standard Dev | 9.215224591862954
 		RSS          | 1698.407285569515
-	Max + (Standard Deviation / 2)
-		Confidence   | 94.2 +/- 3.039
-		Standard Dev | 8.261102026062957
-		RSS          | 1364.91613370043
+	Max + (Standard Deviation / 2) - Min
+		Confidence   | 94.059 +/- 3.077
+		Standard Dev | 8.366032602380082
+		RSS          | 1399.810030081729
 Large
 	Min + Max
 		Confidence   | 88.086 +/- 1.864
@@ -258,7 +258,7 @@ Large
 		Confidence   | 37.57 +/- 2.931
 		Standard Dev | 7.969034184589573
 		RSS          | 1270.1101167031438
-	Max + (Standard Deviation / 2)
-		Confidence   | 98.982 +/- 1.991
-		Standard Dev | 5.413391950006733
-		RSS          | 586.0962480879539
+	Max + (Standard Deviation / 2) - Min
+		Confidence   | 98.889 +/- 1.976
+		Standard Dev | 5.370907108174251
+		RSS          | 576.9328632927338
