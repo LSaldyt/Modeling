@@ -21,6 +21,7 @@ plotConfidence <- function(filename)
     boxPlot(estimates)
 }
 
+png()
 plotConfidence("estimates.csv")
 plotConfidence("estimates_shifted.csv")
 plotConfidence("estimates_skewed.csv")
